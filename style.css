@@ -1,95 +1,85 @@
 /* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg, #f4f4f9, #e8e8f0);
-  color: #333;
-  line-height: 1.6;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; /* Changed from center to flex-start */
-  min-height: 100vh;
-  margin: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF1E6; /* Soft Beige */
+    color: #333333; /* Charcoal Gray */
 }
 
-/* Header Styling */
+/* Header Style */
 header {
-  background: linear-gradient(135deg, #6200ea, #3700b3);
-  color: #fff;
-  padding: 0px; /* Ensure padding is zero */
-  width: 100%;
-  text-align: center;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-  font-size: 2rem;
-  margin: 0; /* Remove extra margin */
-}
-
-header p {
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 0; /* Remove extra margin */
+    background-color: #AFCBFF; /* Pastel Blue */
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 3px solid #FFC3D6; /* Pastel Pink */
 }
 
 /* Main Content */
 main {
-  padding: 20px;
-  text-align: center;
+    padding: 40px;
 }
 
-.link-container {
-  margin: 20px 0;
+h1, h2, h3 {
+    color: #333333;
+    font-weight: bold;
 }
 
+p {
+    line-height: 1.6;
+}
+
+/* Buttons */
+button {
+    background-color: #C7F9CC; /* Pastel Green */
+    color: #333333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #AFCBFF; /* Pastel Blue */
+}
+
+/* Links */
 a {
-  text-decoration: none;
-  color: #6200ea;
-  background-color: #fff;
-  font-weight: bold;
-  border: 2px solid #6200ea;
-  padding: 10px 20px;
-  border-radius: 30px;
-  transition: all 0.3s ease-in-out;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    color: #FFC3D6; /* Pastel Pink */
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
-  background-color: #6200ea;
-  color: #fff;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    color: #AFCBFF; /* Pastel Blue */
 }
 
-/* Footer Styling */
+/* Cards */
+.card {
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card h2 {
+    color: #333333;
+}
+
+.card p {
+    color: #666666;
+}
+
+/* Footer */
 footer {
-  margin-top: 20px;
-  font-size: 0.9em;
-  color: #777;
-  text-align: center;
-  width: 100%;
-  padding: 10px;
-  background: #f4f4f9;
-  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
-}
-
-footer p {
-  margin: 0;
-}
-
-/* Responsive Styling */
-@media (max-width: 768px) {
-  header h1 {
-    font-size: 1.5rem;
-  }
-  a {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-  }
+    background-color: #FFC3D6; /* Pastel Pink */
+    color: #333333;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid #AFCBFF; /* Pastel Blue */
 }
