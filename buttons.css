@@ -1,0 +1,14 @@
+button {
+  margin: 10px; /* Adds space around the buttons */
+  padding: 10px 20px; /* Adds space inside the buttons */
+  border: none; /* Removes the default border */
+  border-radius: 5px; /* Adds rounded corners */
+  background-color: #ffd1dc; /* Pastel pink color */
+  color: #333; /* Dark text for contrast */
+  font-size: 16px; /* Adjusts the font size */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #ffe4e1; /* Slightly lighter pastel color on hover */
+}
